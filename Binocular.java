@@ -4,7 +4,7 @@
  * as a optical shop, for instance.
  *
  * @author (Chiaha Christopher Izuchukwu)
- * @author (Insert name of group member 2)
+ * @author (Keagan Crane)
  * @author (Insert name of group member 3)
  * 
  * @version (Insert today's date here.)
