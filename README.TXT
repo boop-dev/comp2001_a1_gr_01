@@ -3,5 +3,5 @@ This is the project README file.
 ------------------------------------------------------------------------
 
 PROJECT TITLE: COMP-2001 Assignment 1
-VERSION or DATE: January 25th, 2021
-AUTHORS: Keagan Crane
+VERSION or DATE: January 25th, 2022
+AUTHORS: Keagan Crane, Chiaha Christopher Izuchukwu

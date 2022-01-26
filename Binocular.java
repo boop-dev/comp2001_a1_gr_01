@@ -7,7 +7,7 @@
  * @author (Keagan Crane)
  * @author (Insert name of group member 3)
  * 
- * @version (Insert today's date here.)
+ * @version (25th of January, 2022)
  */
 public class Binocular
 {
@@ -85,12 +85,30 @@ public class Binocular
     
     public void printBinocularInfo()
     {
-        System.out.println(model);
-        System.out.println(price);
-        System.out.println(magnification);
-        System.out.println(diameter);
-        System.out.println(imageStabilization);
-        System.out.println(owner);
+        System.out.println("Model: " + model);
+        System.out.println("Price: " + price);
+        System.out.println("Magnification: " + magnification);
+        System.out.println("Diameter: " + diameter);
+        System.out.println("Image Stabilization: " + imageStabilization);
+        System.out.println("Owner: " + owner);
+    }
+    
+    public void authorInfo()
+    {
+        System.out.println("Method Author Info:");
+        System.out.println("");
+        System.out.println("getModel method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getPrice method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getCloseFocusDistance method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getMagnification method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getDiameter method author: Chiaha Christopher Izuchukwu");
+        System.out.println("setMagnification method author: Chiaha Christopher Izuchukwu");
+        System.out.println("setDiameter method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getStabilization method author: Chiaha Christopher Izuchukwu");
+        System.out.println("getOwnersName method author: Chiaha Christopher Izuchukwu");
+        System.out.println("changeOwner method author: Chiaha Christopher Izuchukwu");
+        System.out.println("printBinocularInfo method author: Chiaha Christopher Izuchukwu, Keagan Crane");
+        System.out.println("authorInfo method author: Keagan Crane");
     }
 }
 
