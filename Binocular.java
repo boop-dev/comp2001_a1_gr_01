@@ -33,6 +33,9 @@ public class Binocular
     }
 
     // Add the methods here ...
+    /**
+     * Next three methods are accessor methods for model, price and closeFocusMagnification
+     */
     public String getModel()
     {
         return model;
@@ -48,6 +51,9 @@ public class Binocular
         return closeFocusDistance;
     }
     
+    /**
+     * Next two methods are accessor methods for magnification and diameter
+     */
     public int getMagnification()
     {
         return magnification;
@@ -58,6 +64,9 @@ public class Binocular
         return diameter;
     }
     
+    /**
+     * Next two methods set the integer values for magnification and diameter
+     */
     public void setMagnification(int newMagnification)
     {
         magnification = newMagnification;
@@ -68,11 +77,19 @@ public class Binocular
         diameter = newDiameter;
     }
     
+    /**
+     * getStablization method returns true or false depending on if whether the binocular
+     * is equipped with an image stabilization system
+     */
     public boolean getStabilization()
     {
         return imageStabilization;
     }
     
+    /**
+     * Next two methods are an accessor method for the owner of the binocular, and a mutator to
+     * change the owner of the binocular respectfully
+     */
     public String getOwnersName()
     {
         return owner;
@@ -83,6 +100,10 @@ public class Binocular
         owner = newOwner;
     }
     
+    /**
+     * printBinocularInfo will print the model, price, magnification, diameter, image stabilization,
+     * and owner of the binocular
+     */
     public void printBinocularInfo()
     {
         System.out.println("Model: " + model);
@@ -93,6 +114,9 @@ public class Binocular
         System.out.println("Owner: " + owner);
     }
     
+    /**
+     * authorInfo will print out the name of the author who implemented each method in the assignment
+     */
     public void authorInfo()
     {
         System.out.println("Method Author Info:");
