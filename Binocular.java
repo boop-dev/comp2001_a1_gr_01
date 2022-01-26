@@ -7,7 +7,7 @@
  * @author (Keagan Crane)
  * @author (Insert name of group member 3)
  * 
- * @version (Insert today's date here.)
+ * @version (25th of January, 2022)
  */
 public class Binocular
 {
